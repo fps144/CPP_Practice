@@ -7,9 +7,8 @@
 //
 //  - Chapter 3 -
 
-#include <iostream>
-#include <iomanip>
-#include <cmath>
+#include "Common.h"
+#include "Chapter_4.h"
 
 using namespace std;
 
@@ -38,8 +37,8 @@ int main() {
     //    usingLoopToEstimatePI(void);
     //    findPrimeNumber(void);
     //    charEncrypt(void);
-    exercise(25);
-
+    //    exercise(25);
+    Chapter_4_practice(10);
     return 0;
 }
 
