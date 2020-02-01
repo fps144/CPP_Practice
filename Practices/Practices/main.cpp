@@ -9,6 +9,8 @@
 
 #include "Common.h"
 #include "Chapter_4.h"
+#include "Chapter_5.h"
+#include <string>
 
 using namespace std;
 
@@ -38,7 +40,8 @@ int main() {
     //    findPrimeNumber(void);
     //    charEncrypt(void);
     //    exercise(25);
-    Chapter_4_practice(10);
+    //    Chapter_4_practice(10);
+    Chapter_5_practice(17);
     return 0;
 }
 
