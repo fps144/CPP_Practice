@@ -209,6 +209,16 @@ static void practice_6(void) {
 }
 
 static void practice_7(void) {
+    /*
+      52 87 44  8 56 51
+      78 41 26  2 73 55
+      16 58 54 56 49 86
+      19 46  9 16 48 23
+      89 31 92 40 80 31
+      92 45 26 49 53 87
+     
+      找到鞍点: (3, 4) -> 48
+     */
     const int number = 6;
     int a[number][number], max_r[2][36], max_c[2][36];
     srand((unsigned)time(NULL));
