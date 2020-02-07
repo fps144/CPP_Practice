@@ -10,6 +10,7 @@
 #include "Common.h"
 #include "Chapter_4.h"
 #include "Chapter_5.h"
+#include "Chapter_6.h"
 #include <string>
 
 using namespace std;
@@ -41,7 +42,8 @@ int main() {
     //    charEncrypt(void);
     //    exercise(25);
     //    Chapter_4_practice(10);
-    Chapter_5_practice(17);
+    //    Chapter_5_practice(7);
+    Chapter_6_practice(16);
     return 0;
 }
 
