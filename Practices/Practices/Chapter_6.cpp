@@ -552,21 +552,117 @@ void findOutAllGoodStudents(string subjects[], int *numbers, float score[][6]) {
 }
 
 static void practice_16(void) {
-    
+    cout << "Input a string:" << endl;
+    int index = 0, total = -1, number = 0, a[10];
+    char str[50], *wp = str;
+    while ((str[index] = getchar()) != '\n') ++index;
+    for (int i = 0; i <= index; ++i) {
+        if (str[i] >= '0' && str[i] <= '9') {
+            if (total == -1) {
+                total = *wp - 48;
+            }
+            else {
+                total = total*10 + *wp - 48;
+            }
+        } else {
+            if (total != -1) {
+                a[number++] = total;
+                total = -1;
+            }
+        }
+        ++wp;
+    }
+    cout << "Seperated numbers are:" << endl;
+    for (int i = 0; i < number; ++i) {
+        cout << a[i] << " ";
+    }
+    cout << endl;
 }
 
 static void practice_17(void) {
-    
+    void p_strcmp(char *s1, char*s2);
+        
+    cout << "Input 2 strings:" << endl;
+    char a[20], b[20];
+    gets(a);
+    gets(b);
+    p_strcmp(a, b);
+}
+
+void p_strcmp(char *s1, char*s2) {
+    int i = 0;
+    while (*(s1 + i) == *(s2 + i)) {
+        if (*(s1 + i) == '\0') break;
+        ++i;
+    }
+    cout << "Result:" << *(s1 + i) - *(s2 + i) << endl;
 }
 
 static void practice_18(void) {
-    
+    cout << "Input month:" << endl;
+    int month;
+    cin >> month;
+    string nameOfMonths[12] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+    if (month < 1 || month > 12) cout << "Fucking month." << endl;
+    else cout << *(nameOfMonths+month-1) << endl;
 }
 
 static void practice_19(void) {
+    void sortStrings(char **strings);
     
+    cout << "Input 5 strings:" << endl;
+    char a[5][20], *pa[5], **p = pa;
+    for (int i = 0; i < 5; ++i) {
+        pa[i] = a[i];
+        cin >> pa[i];
+    }
+    sortStrings(p);
+    for (int i = 0; i < 5; ++i) {
+        cout << pa[i] << endl;
+    }
+}
+
+void sortStrings(char **strings) {
+    for (int i = 0; i < 4; ++i) {
+        for (int j = 0; j < 4 - i; ++j) {
+            if (strcmp(*(strings + j), *(strings + j + 1)) > 0) {
+                char *tmp = *(strings + j);
+                *(strings + j) = *(strings + j + 1);
+                *(strings + j + 1) = tmp;
+            }
+        }
+    }
 }
 
 static void practice_20(void) {
+    void sortNumbers(int **numbers, int n);
     
+    cout << "Input n:" << endl;
+    int n;
+    cin >> n;
+    int *p_numbers[n], numbers[n], **p;
+    cout << "Input " << n << " numbers:" << endl;
+    for (int i = 0; i < n; ++i) {
+        p_numbers[i] = &numbers[i];
+        cin >> *p_numbers[i];
+    }
+    p = p_numbers;
+    sortNumbers(p, n);
+    cout << "Sorted numbers:" << endl;
+    for (int i = 0; i < n; ++i) {
+        cout << *p_numbers[i] << ' ';
+    }
+    cout << endl;
+}
+
+void sortNumbers(int **numbers, int n) {
+    for (int i = 0; i < n - 1; ++i) {
+        for (int j = 0; j < n - 1 - i; ++j) {
+            if (**(numbers + j) > **(numbers + j + 1)) {
+                int *tmp = *(numbers + j);
+                *(numbers + j) = *(numbers + j + 1);
+                *(numbers + j + 1) = tmp;
+            }
+        }
+    }
 }

@@ -43,7 +43,7 @@ int main() {
     //    exercise(25);
     //    Chapter_4_practice(10);
     //    Chapter_5_practice(7);
-    Chapter_6_practice(16);
+    Chapter_6_practice(20);
     return 0;
 }
 
