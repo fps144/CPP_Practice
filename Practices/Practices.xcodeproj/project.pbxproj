@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D48A5D323E40DFB009799BB /* Chapter_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D48A5D223E40DFB009799BB /* Chapter_5.cpp */; };
 		4DD3854123F2729300246B1F /* Chapter_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD3854023F2729300246B1F /* Chapter_7.cpp */; };
+		4DD3854423F2F9C000246B1F /* Chapter_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD3854323F2F9C000246B1F /* Chapter_3.cpp */; };
 		4DD9B12423E1E318008F962D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9B12323E1E318008F962D /* main.cpp */; };
 		4DD9B12C23E31BCD008F962D /* Chapter_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9B12A23E31BCD008F962D /* Chapter_4.cpp */; };
 		4DD9ED2323E868B2009340CF /* Chapter_6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9ED2223E868B2009340CF /* Chapter_6.cpp */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		4D48A5D223E40DFB009799BB /* Chapter_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter_5.cpp; sourceTree = "<group>"; };
 		4DD3854023F2729300246B1F /* Chapter_7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter_7.cpp; sourceTree = "<group>"; };
+		4DD3854323F2F9C000246B1F /* Chapter_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter_3.cpp; sourceTree = "<group>"; };
 		4DD9B12023E1E318008F962D /* Practices */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Practices; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD9B12323E1E318008F962D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DD9B12A23E31BCD008F962D /* Chapter_4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter_4.cpp; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			children = (
 				4DD9B12323E1E318008F962D /* main.cpp */,
 				4DD9B12E23E31DD2008F962D /* Common.h */,
+				4DD3854323F2F9C000246B1F /* Chapter_3.cpp */,
 				4DD9B12A23E31BCD008F962D /* Chapter_4.cpp */,
 				4D48A5D223E40DFB009799BB /* Chapter_5.cpp */,
 				4DD9ED2223E868B2009340CF /* Chapter_6.cpp */,
@@ -136,6 +139,7 @@
 				4DD3854123F2729300246B1F /* Chapter_7.cpp in Sources */,
 				4D48A5D323E40DFB009799BB /* Chapter_5.cpp in Sources */,
 				4DD9B12C23E31BCD008F962D /* Chapter_4.cpp in Sources */,
+				4DD3854423F2F9C000246B1F /* Chapter_3.cpp in Sources */,
 				4DD9ED2323E868B2009340CF /* Chapter_6.cpp in Sources */,
 				4DD9B12423E1E318008F962D /* main.cpp in Sources */,
 			);

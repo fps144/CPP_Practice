@@ -1,6 +1,6 @@
 //
 //  Chapter_5.cpp
-//  Practices
+//  exercises
 //
 //  Created by Songyu on 2020/1/31.
 //  Copyright © 2020 Songyu. All rights reserved.
@@ -11,84 +11,84 @@
 #include <ctime>
 #include <cstdlib>
 
-static void practice_1(void);
-static void practice_2(void);
-static void practice_3(void);
-static void practice_4(void);
-static void practice_5(void);
-static void practice_6(void);
-static void practice_7(void);
-static void practice_8(void);
-static void practice_9(void);
-static void practice_10(void);
-static void practice_11(void);
-static void practice_12(void);
-static void practice_13(void);
-static void practice_14(void);
-static void practice_15(void);
-static void practice_16(void);
-static void practice_17(void);
+static void exercise_1(void);
+static void exercise_2(void);
+static void exercise_3(void);
+static void exercise_4(void);
+static void exercise_5(void);
+static void exercise_6(void);
+static void exercise_7(void);
+static void exercise_8(void);
+static void exercise_9(void);
+static void exercise_10(void);
+static void exercise_11(void);
+static void exercise_12(void);
+static void exercise_13(void);
+static void exercise_14(void);
+static void exercise_15(void);
+static void exercise_16(void);
+static void exercise_17(void);
 
-void Chapter_5_practice(int number) {
+void Chapter_5_exercise(int number) {
     switch (number) {
         case 1: {
-            practice_1();
+            exercise_1();
         } break;
         case 2: {
-            practice_2();
+            exercise_2();
         } break;
         case 3: {
-            practice_3();
+            exercise_3();
         } break;
         case 4: {
-            practice_4();
+            exercise_4();
         } break;
         case 5: {
-            practice_5();
+            exercise_5();
         } break;
         case 6: {
-            practice_6();
+            exercise_6();
         } break;
         case 7: {
-            practice_7();
+            exercise_7();
         } break;
         case 8: {
-            practice_8();
+            exercise_8();
         } break;
         case 9: {
-            practice_9();
+            exercise_9();
         } break;
         case 10: {
-            practice_10();
+            exercise_10();
         } break;
         case 11: {
-            practice_11();
+            exercise_11();
         } break;
         case 12: {
-            practice_12();
+            exercise_12();
         } break;
         case 13: {
-            practice_13();
+            exercise_13();
         } break;
         case 14: {
-            practice_14();
+            exercise_14();
         } break;
         case 15: {
-            practice_15();
+            exercise_15();
         } break;
         case 16: {
-            practice_16();
+            exercise_16();
         } break;
         case 17: {
-            practice_17();
+            exercise_17();
         } break;
         default: {
-            cout << "Shit practice number!" << endl;
+            cout << "Shit exercise number!" << endl;
         } break;
     }
 }
 
-static void practice_1(void) {
+static void exercise_1(void) {
     int numbers[100];
     for (int i = 0; i < 100; ++i) {
         numbers[i] = i == 0 ? 0 : i+1;
@@ -110,7 +110,7 @@ static void practice_1(void) {
 }
 
 
-static void practice_2(void) {
+static void exercise_2(void) {
     int a[10];
     cout << "Input 10 numbers:" << endl;
     for (int i = 0; i < 10; ++i) {
@@ -131,7 +131,7 @@ static void practice_2(void) {
     cout << endl;
 }
 
-static void practice_3(void) {
+static void exercise_3(void) {
     float matrix[][3] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     float s1 = 0, s2 = 0;
     for (int i = 0; i < 3; ++i) {
@@ -143,7 +143,7 @@ static void practice_3(void) {
     cout << "正对角线和 = " << s1 << endl << "副对角线和 = " << s2 << endl;
 }
 
-static void practice_4(void) {
+static void exercise_4(void) {
     float arr[6] = {-1, 2, 10, 14, 234}, a;
     int index = -1;
     cout << "Old array is [-1, 2, 10, 14, 234]\nInput a new number you want to insert:" << endl;
@@ -171,7 +171,7 @@ static void practice_4(void) {
     cout << endl;
 }
 
-static void practice_5(void) {
+static void exercise_5(void) {
     int a[] = {8, 6, 5, 4, 1};
     cout << "Old array is [8, 6, 5, 4, 1]" << endl;
     for (int i = 0; i < 5/2; ++i) {
@@ -185,7 +185,7 @@ static void practice_5(void) {
     cout << endl;
 }
 
-static void practice_6(void) {
+static void exercise_6(void) {
     int a[10][10] = {{1}, {1}};
     for (int i = 1; i < 10; ++i) {
         for (int j = 0; j < 10; ++j) {
@@ -207,7 +207,7 @@ static void practice_6(void) {
     }
 }
 
-static void practice_7(void) {
+static void exercise_7(void) {
     /*
       52 87 44  8 56 51
       78 41 26  2 73 55
@@ -268,7 +268,7 @@ static void practice_7(void) {
     if (!find) cout << "没有鞍点。" << endl;
 }
 
-static void practice_8(void) {
+static void exercise_8(void) {
     int a[15] = {-10, -2, 0, 2, 14, 23, 35, 53, 66, 77, 77, 77, 102, 134, 1245}, n, indexes[15]={-1}, index = 0;
     cout << "Input n:" <<endl;
     cin >> n;
@@ -303,7 +303,7 @@ static void practice_8(void) {
     }
 }
 
-static void practice_9(void) {
+static void exercise_9(void) {
     int daysOfMonths[12] = {31,28,31,30,31,30,31,31,30,31,30,31}, year, month, day, total = 0;
     cout << "Input year, month, day:" << endl;
     cin >> year >> month >> day;
@@ -319,7 +319,7 @@ static void practice_9(void) {
     cout << year << "年" << month << "月" << day << "日" << "是当年的第" << total << "天。" << endl;
 }
 
-static void practice_10(void) {
+static void exercise_10(void) {
     int capitalLetter = 0, smallLetter = 0, number = 0, space = 0, other = 0;
     char a[80];
     cout << "Input 3 lines:" << endl;
@@ -342,7 +342,7 @@ static void practice_10(void) {
     cout << "其他字符数：" << other << endl;
 }
 
-static void practice_11(void) {
+static void exercise_11(void) {
     char a[5] = {'*','*','*','*','*'};
     string s = "*****";
     cout << "Char array:" << endl;
@@ -365,7 +365,7 @@ static void practice_11(void) {
     }
 }
 
-static void practice_12(void) {
+static void exercise_12(void) {
     char o[100], n[100], c;
     int count = 0;
     cout << "Input password:" << endl;
@@ -381,7 +381,7 @@ static void practice_12(void) {
     cout << endl << "Original is:" << endl << n << endl;
 }
 
-static void practice_13(void) {
+static void exercise_13(void) {
     string s1, s2;
     char a[160], b[80];
 //    int i = 0, j = 0;
@@ -407,7 +407,7 @@ static void practice_13(void) {
     cout << a << endl;
 }
 
-static void practice_14(void) {
+static void exercise_14(void) {
     string a[5];
     cout << "Input 5 strings:" << endl;
     for (int i = 0; i < 5; ++i) {
@@ -428,7 +428,7 @@ static void practice_14(void) {
     }
 }
 
-static void practice_15(void) {
+static void exercise_15(void) {
     string a[5];
     cout << "Input 5 strings:" << endl;
     for (int i = 0; i < 5; ++i) {
@@ -440,7 +440,7 @@ static void practice_15(void) {
     cout << endl;
 }
 
-static void practice_16(void) {
+static void exercise_16(void) {
     char a[20];
 //    string s;
     int index = 0;
@@ -466,7 +466,7 @@ static void practice_16(void) {
     cout << endl;
 }
 
-static void practice_17(void) {
+static void exercise_17(void) {
     const int count = 10;
     string name[count];
     int score[count], id[count];

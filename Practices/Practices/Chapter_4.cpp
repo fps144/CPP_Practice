@@ -1,6 +1,6 @@
 //
 //  Chapter_4.cpp
-//  Practices
+//  exercises
 //
 //  Created by Songyu on 2020/1/30.
 //  Copyright © 2020 Songyu. All rights reserved.
@@ -11,64 +11,64 @@
 #define triangle_s(a,b,c) (a+b+c)/2
 #define triangle_area(a,b,c) sqrt(triangle_s(a,b,c)*(triangle_s(a,b,c)-a)*(triangle_s(a,b,c)-b)*(triangle_s(a,b,c)-c))
 
-static void practice_1(void);
-static void practice_2(float, float, float);
-static bool practice_3(int);
-static void practice_4(double, double, double);
-static void practice_5(void);
-static void practice_6(void);
-static void practice_7(int);
-static void practice_8(int, double);
-static void practice_9(void);
-static void practice_10(void);
-static void practice_11(int);
-static void practice_12(void);
+static void exercise_1(void);
+static void exercise_2(float, float, float);
+static bool exercise_3(int);
+static void exercise_4(double, double, double);
+static void exercise_5(void);
+static void exercise_6(void);
+static void exercise_7(int);
+static void exercise_8(int, double);
+static void exercise_9(void);
+static void exercise_10(void);
+static void exercise_11(int);
+static void exercise_12(void);
 
-void Chapter_4_practice(int number) {
+void Chapter_4_exercise(int number) {
     switch (number) {
         case 1: {
-            practice_1();
+            exercise_1();
         } break;
         case 2: {
-            practice_2(2, 4, 3);
+            exercise_2(2, 4, 3);
         } break;
         case 3: {
-            practice_3(17);
+            exercise_3(17);
         } break;
         case 4: {
-            practice_4(4, 5, 6);
+            exercise_4(4, 5, 6);
         } break;
         case 5: {
-            practice_5();
+            exercise_5();
         } break;
         case 6: {
-            practice_6();
+            exercise_6();
         } break;
         case 7: {
-            practice_7(20);
+            exercise_7(20);
         } break;
         case 8: {
-            practice_8(3, 4);
+            exercise_8(3, 4);
         } break;
         case 9: {
-            practice_9();
+            exercise_9();
         } break;
         case 10: {
-            practice_10();
+            exercise_10();
         } break;
         case 11: {
-            practice_11(5);
+            exercise_11(5);
         } break;
         case 12: {
-            practice_12();
+            exercise_12();
         } break;
         default: {
-            cout << "Shit practice number!" << endl;
+            cout << "Shit exercise number!" << endl;
         } break;
     }
 }
 
-void practice_1(void) {
+void exercise_1(void) {
     int gcd(int a, int b);
     int a, b, n, m;
     cout << "Input a & b:" << endl;
@@ -96,7 +96,7 @@ int gcd(int a, int b) {
     return b == 0 ? a : (gcd(b, a % b));
 }
 
-void practice_2(float a, float b, float c) {
+void exercise_2(float a, float b, float c) {
     void doubleRoots(float, float, float);
     void oneRoot(float, float, float);
     void noRoot(float, float, float);
@@ -126,7 +126,7 @@ void noRoot(float a, float b, float c) {
     cout << "No root!" << endl;
 }
 
-bool practice_3(int a) {
+bool exercise_3(int a) {
     if (a <= 1) {
         cout << "Wrong number." << endl;
         return false;
@@ -146,7 +146,7 @@ bool practice_3(int a) {
     return true;
 }
 
-void practice_4(double a, double b, double c) {
+void exercise_4(double a, double b, double c) {
     double fac(double);
     cout << a << "! + " << b << "! + " << c << "! = " << fac(a) + fac(b) + fac(c) << endl;
 }
@@ -155,7 +155,7 @@ double fac(double n) {
     return n == 1 ? 1 : n * fac(n-1);
 }
 
-void practice_5(void) {
+void exercise_5(void) {
     double e(double);
     double x, sinh;
     cout << "Input x:" << endl;
@@ -168,7 +168,7 @@ double e(double x) {
     return exp(x);
 }
 
-void practice_6(void) {
+void exercise_6(void) {
     double solut(double, double, double, double);
     double a, b, c, d;
     cout << "Input a & b & c & d:" << endl;
@@ -187,14 +187,14 @@ double solut(double a, double b, double c, double d) {
     return x;
 }
 
-void practice_7(int a) {
+void exercise_7(int a) {
     if (a < 6 || a % 2 != 0) {
         cout << "Wrong number!" << endl;
         return;
     }
     bool find = false;
     for (int i = 3; i < a / 2; ++i) {
-        if (practice_3(i) && practice_3(a - i)) {
+        if (exercise_3(i) && exercise_3(a - i)) {
             cout << "a = " << i << " + " << a-i << endl;
             find = true;
         }
@@ -202,7 +202,7 @@ void practice_7(int a) {
     if (!find) cout << "Shit Gotbaha." << endl;
 }
 
-void practice_8(int n, double x) {
+void exercise_8(int n, double x) {
     double lrd(int, double);
     cout << lrd(n, x) << endl;
 }
@@ -213,11 +213,11 @@ double lrd(int n, double x) {
     return ((2*n-1)*x - lrd(n-1, x) - (n-1)*lrd(n-2, x)) / n;
 }
 
-void practice_9(void) {
+void exercise_9(void) {
 
 }
 
-void practice_10(void) {
+void exercise_10(void) {
     void convert(int);
     int n;
     cout << "Input n:" << endl;
@@ -236,7 +236,7 @@ void convert(int a) {
     cout << c << ' ';
 }
 
-void practice_11(int a) {
+void exercise_11(int a) {
     long long add(long long);
     cout << add(a) << endl;
 }
@@ -245,6 +245,6 @@ long long add(long long a) {
     return a == 0 ? 0 : add(a - 1) + a * a;
 }
 
-void practice_12(void) {
+void exercise_12(void) {
     cout << triangle_area(3,4,5) << endl;
 }

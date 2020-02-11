@@ -1,6 +1,6 @@
 //
 //  Chapter_7.cpp
-//  Practices
+//  exercises
 //
 //  Created by Songyu on 2020/2/11.
 //  Copyright © 2020 Songyu. All rights reserved.
@@ -8,55 +8,55 @@
 
 #include "Common.h"
 
-static void practice_1(void);
-static void practice_2(void);
-static void practice_3(void);
-static void practice_4(void);
-static void practice_5(void);
-static void practice_6(void);
-static void practice_7(void);
-static void practice_8(void);
-static void practice_9(void);
-static void practice_10(void);
-static void practice_11(void);
+static void exercise_1(void);
+static void exercise_2(void);
+static void exercise_3(void);
+static void exercise_4(void);
+static void exercise_5(void);
+static void exercise_6(void);
+static void exercise_7(void);
+static void exercise_8(void);
+static void exercise_9(void);
+static void exercise_10(void);
+static void exercise_11(void);
 
-void Chapter_7_practice(int number) {
+void Chapter_7_exercise(int number) {
     switch (number) {
         case 1: {
-            practice_1();
+            exercise_1();
         } break;
         case 2: {
-            practice_2();
+            exercise_2();
         } break;
         case 3: {
-            practice_3();
+            exercise_3();
         } break;
         case 4: {
-            practice_4();
+            exercise_4();
         } break;
         case 5: {
-            practice_5();
+            exercise_5();
         } break;
         case 6: {
-            practice_6();
+            exercise_6();
         } break;
         case 7: {
-            practice_7();
+            exercise_7();
         } break;
         case 8: {
-            practice_8();
+            exercise_8();
         } break;
         case 9: {
-            practice_9();
+            exercise_9();
         } break;
         case 10: {
-            practice_10();
+            exercise_10();
         } break;
         case 11: {
-            practice_11();
+            exercise_11();
         } break;
         default: {
-            cout << "Shit practice number!" << endl;
+            cout << "Shit exercise number!" << endl;
         } break;
     }
 }
@@ -67,7 +67,7 @@ struct date {
     int day;
 } testDate;
 
-static void practice_1(void) {
+static void exercise_1(void) {
     bool isLeapYear(int year);
     
     cout << "Input year, month and day:" << endl;
@@ -90,7 +90,7 @@ bool isLeapYear(int year) {
     return result;
 }
 
-static void practice_2(void) {
+static void exercise_2(void) {
     int days(int year, int month, int day);
     
     cin >> testDate.year >> testDate.month >> testDate.day;
@@ -118,7 +118,7 @@ struct Student {
     float score[3];
 } s, *p;
 
-static void practice_3(void) {
+static void exercise_3(void) {
     void print(Student s);
     
     cin >> s.num >> s.name >> s.score[0] >> s.score[1] >> s.score[2];
@@ -129,7 +129,7 @@ void print(Student s) {
     cout << endl << s.num << endl << s.name << endl << s.score[0] << ' ' << s.score[1] << ' ' << s.score[2] << endl;
 }
 
-static void practice_4(void) {
+static void exercise_4(void) {
     void input(Student *p);
     
     input(p);
@@ -140,7 +140,7 @@ void input(Student *p) {
     cout << endl << (*p).num << endl << (*p).name << endl << (*p).score[0] << ' ' << (*p).score[1] << ' ' << (*p).score[2] << endl;
 }
 
-static void practice_5(void) {
+static void exercise_5(void) {
     Student a[10];
     int maxIndex = 0;
     float average[] = {0.f, 0.f, 0.f}, maxScore = 0.f;
@@ -171,7 +171,7 @@ struct Node {
     Node *next = NULL;
 };
 
-static void practice_6(void) {
+static void exercise_6(void) {
     Node * create(void);
     
     Node *p = create();
@@ -203,7 +203,7 @@ Node * create(void) {
     return head;
 }
 
-static void practice_7(void) {
+static void exercise_7(void) {
     void printLinkedList(Node *head);
     
     Node *head = create(), *p;
@@ -219,7 +219,7 @@ void printLinkedList(Node *head) {
     cout << "End" << endl;
 }
 
-static void practice_8(void) {
+static void exercise_8(void) {
     Node *del(Node *head ,int value);
     
     Node *head = create();
@@ -254,7 +254,7 @@ Node *del(Node *head, int value) {
     return head;
 }
 
-static void practice_9(void) {
+static void exercise_9(void) {
     Node *insert(Node *head, int value);
     
     Node *head = create();
@@ -293,7 +293,7 @@ Node *insert(Node *head, int value) {
     return head;
 }
 
-static void practice_10(void) {
+static void exercise_10(void) {
     Node *head = create();
     head = insert(head, 10);
     printLinkedList(head);
@@ -305,7 +305,7 @@ typedef enum {
     Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
 } WEEKDAY;
 
-static void practice_11(void) {
+static void exercise_11(void) {
     WEEKDAY weekday = *new WEEKDAY; // 不初始化不行？
     char ch = 'A';
     int a, b, c, d, e, f, g, loop;

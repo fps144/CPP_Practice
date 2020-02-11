@@ -1,6 +1,6 @@
 //
 //  Common.h
-//  Practices
+//  exercises
 //
 //  Created by Songyu on 2020/1/30.
 //  Copyright © 2020 Songyu. All rights reserved.
@@ -16,9 +16,10 @@
 
 using namespace std;
 
-void Chapter_4_practice(int number);
-void Chapter_5_practice(int number);
-void Chapter_6_practice(int number);
-void Chapter_7_practice(int number);
+void Chapter_3_exercise(int number);
+void Chapter_4_exercise(int number);
+void Chapter_5_exercise(int number);
+void Chapter_6_exercise(int number);
+void Chapter_7_exercise(int number);
 
 #endif /* Common_h */

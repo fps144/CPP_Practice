@@ -1,6 +1,6 @@
 //
 //  Chapter_6.cpp
-//  Practices
+//  exercises
 //
 //  Created by Songyu on 2020/2/3.
 //  Copyright © 2020 Songyu. All rights reserved.
@@ -8,96 +8,96 @@
 
 #include "Common.h"
 
-static void practice_1(void);
-static void practice_2(void);
-static void practice_3(void);
-static void practice_4(void);
-static void practice_5(void);
-static void practice_6(void);
-static void practice_7(void);
-static void practice_8(void);
-static void practice_9(void);
-static void practice_10(void);
-static void practice_11(void);
-static void practice_12(void);
-static void practice_13(void);
-static void practice_14(void);
-static void practice_15(void);
-static void practice_16(void);
-static void practice_17(void);
-static void practice_18(void);
-static void practice_19(void);
-static void practice_20(void);
+static void exercise_1(void);
+static void exercise_2(void);
+static void exercise_3(void);
+static void exercise_4(void);
+static void exercise_5(void);
+static void exercise_6(void);
+static void exercise_7(void);
+static void exercise_8(void);
+static void exercise_9(void);
+static void exercise_10(void);
+static void exercise_11(void);
+static void exercise_12(void);
+static void exercise_13(void);
+static void exercise_14(void);
+static void exercise_15(void);
+static void exercise_16(void);
+static void exercise_17(void);
+static void exercise_18(void);
+static void exercise_19(void);
+static void exercise_20(void);
 
-void Chapter_6_practice(int number) {
+void Chapter_6_exercise(int number) {
     switch (number) {
         case 1: {
-            practice_1();
+            exercise_1();
         } break;
         case 2: {
-            practice_2();
+            exercise_2();
         } break;
         case 3: {
-            practice_3();
+            exercise_3();
         } break;
         case 4: {
-            practice_4();
+            exercise_4();
         } break;
         case 5: {
-            practice_5();
+            exercise_5();
         } break;
         case 6: {
-            practice_6();
+            exercise_6();
         } break;
         case 7: {
-            practice_7();
+            exercise_7();
         } break;
         case 8: {
-            practice_8();
+            exercise_8();
         } break;
         case 9: {
-            practice_9();
+            exercise_9();
         } break;
         case 10: {
-            practice_10();
+            exercise_10();
         } break;
         case 11: {
-            practice_11();
+            exercise_11();
         } break;
         case 12: {
-            practice_12();
+            exercise_12();
         } break;
         case 13: {
-            practice_13();
+            exercise_13();
         } break;
         case 14: {
-            practice_14();
+            exercise_14();
         } break;
         case 15: {
-            practice_15();
+            exercise_15();
         } break;
         case 16: {
-            practice_16();
+            exercise_16();
         } break;
         case 17: {
-            practice_17();
+            exercise_17();
         } break;
         case 18: {
-            practice_18();
+            exercise_18();
         } break;
         case 19: {
-            practice_19();
+            exercise_19();
         } break;
         case 20: {
-            practice_20();
+            exercise_20();
         } break;
         default: {
-            cout << "Shit practice number!" << endl;
+            cout << "Shit exercise number!" << endl;
         } break;
     }
 }
 
-static void practice_1(void) {
+static void exercise_1(void) {
     void p_swap(int *, int *);
     cout << "Input 3 integers:" << endl;
     int a, b, c, *i = &a, *j = &b, *k = &c;
@@ -116,7 +116,7 @@ void p_swap(int *a, int *b) {
     }
 }
 
-static void practice_2(void) {
+static void exercise_2(void) {
     void swapString(string &, string &);
     
     cout << "Input 3 strings:" << endl;
@@ -140,7 +140,7 @@ void swapString(string &s1, string &s2) {
     s2 = tmp;
 }
 
-static void practice_3(void) {
+static void exercise_3(void) {
     void inputTenNumbers(int *);
     void processTenNumbers(int *);
     void printTenNumbers(int *);
@@ -183,7 +183,7 @@ void printTenNumbers(int *a) {
     cout << endl;
 }
 
-static void practice_4(void) {
+static void exercise_4(void) {
     void move(int *arr, int n, int m);
     
     int n, m, a[20];
@@ -214,7 +214,7 @@ void move(int *a, int n, int m) {
     }
 }
 
-static void practice_5(void) {
+static void exercise_5(void) {
     cout << "Number of people:" << endl;
     int n;
     cin >> n;
@@ -236,7 +236,7 @@ static void practice_5(void) {
     cout << "余下的人排第 " << *p << " 号。" << endl;
 }
 
-static void practice_6(void) {
+static void exercise_6(void) {
     int countString(char *a);
     int count = 0;
     char a[50], *p = a;
@@ -252,7 +252,7 @@ int countString(char *a) {
     return count;
 }
 
-static void practice_7(void) {
+static void exercise_7(void) {
     char a[50], b[50], *p = a;
     int n;
     cout << "Input a string:" << endl;
@@ -264,7 +264,7 @@ static void practice_7(void) {
     cout << b << endl;
 }
 
-static void practice_8(void) {
+static void exercise_8(void) {
     char a[20], *p = a;
     int capital = 0, small = 0, space = 0, digit = 0, other = 0, index = 0;
     cout << "Input string:" << endl;
@@ -284,7 +284,7 @@ static void practice_8(void) {
     cout << "其他字符数：" << other << endl;
 }
 
-static void practice_9(void) {
+static void exercise_9(void) {
     void matrix_T(int *);
     
     int a[3][3], *p = &a[0][0];
@@ -309,7 +309,7 @@ void matrix_T(int *a) {
     }
 }
 
-static void practice_10(void) {
+static void exercise_10(void) {
     void matrix_Fix(int *a);
         
     cout << "Input a 5x5 matrix:" << endl;
@@ -377,7 +377,7 @@ void swapMatrixItem(int *a, int *b) {
     *b = tmp;
 }
 
-static void practice_11(void) {
+static void exercise_11(void) {
     void sortStr(string *);
     
     string str[10], *p = str;
@@ -404,7 +404,7 @@ void sortStr(string *str) {
     }
 }
 
-static void practice_12(void) {
+static void exercise_12(void) {
     void sortStr_2(string *[]);
     
     string str[10], *p[10];
@@ -432,11 +432,11 @@ void sortStr_2(string *str[]) {
     }
 }
 
-static void practice_13(void) {
+static void exercise_13(void) {
     //TODO: 定积分
 }
 
-static void practice_14(void) {
+static void exercise_14(void) {
     void p_reverse(int *, int);
     
     int n;
@@ -463,7 +463,7 @@ void p_reverse(int *a, int n) {
     }
 }
 
-static void practice_15(void) {
+static void exercise_15(void) {
     void averageOfFirstSubject(string, int *);
     void findOutAllFuckingStudents(string[], int *, float [][6]);
     void findOutAllGoodStudents(string[], int *, float [][6]);
@@ -551,7 +551,7 @@ void findOutAllGoodStudents(string subjects[], int *numbers, float score[][6]) {
     }
 }
 
-static void practice_16(void) {
+static void exercise_16(void) {
     cout << "Input a string:" << endl;
     int index = 0, total = -1, number = 0, a[10];
     char str[50], *wp = str;
@@ -579,7 +579,7 @@ static void practice_16(void) {
     cout << endl;
 }
 
-static void practice_17(void) {
+static void exercise_17(void) {
     void p_strcmp(char *s1, char*s2);
         
     cout << "Input 2 strings:" << endl;
@@ -598,7 +598,7 @@ void p_strcmp(char *s1, char*s2) {
     cout << "Result:" << *(s1 + i) - *(s2 + i) << endl;
 }
 
-static void practice_18(void) {
+static void exercise_18(void) {
     cout << "Input month:" << endl;
     int month;
     cin >> month;
@@ -607,7 +607,7 @@ static void practice_18(void) {
     else cout << *(nameOfMonths+month-1) << endl;
 }
 
-static void practice_19(void) {
+static void exercise_19(void) {
     void sortStrings(char **strings);
     
     cout << "Input 5 strings:" << endl;
@@ -634,7 +634,7 @@ void sortStrings(char **strings) {
     }
 }
 
-static void practice_20(void) {
+static void exercise_20(void) {
     void sortNumbers(int **numbers, int n);
     
     cout << "Input n:" << endl;
