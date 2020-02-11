@@ -11,7 +11,7 @@
 #include "Chapter_4.h"
 #include "Chapter_5.h"
 #include "Chapter_6.h"
-#include <string>
+#include "Chapter_7.h"
 
 using namespace std;
 
@@ -43,7 +43,8 @@ int main() {
     //    exercise(25);
     //    Chapter_4_practice(10);
     //    Chapter_5_practice(7);
-    Chapter_6_practice(20);
+    //    Chapter_6_practice(20);
+    Chapter_7_practice(11);
     return 0;
 }
 

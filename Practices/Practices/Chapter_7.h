@@ -9,5 +9,8 @@
 #ifndef Chapter_7_h
 #define Chapter_7_h
 
+#include "Common.h"
+
+void Chapter_7_practice(int number);
 
 #endif /* Chapter_7_h */
