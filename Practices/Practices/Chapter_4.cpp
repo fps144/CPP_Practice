@@ -6,7 +6,7 @@
 //  Copyright © 2020 Songyu. All rights reserved.
 //
 
-#include "Chapter_4.h"
+#include "Common.h"
 
 #define triangle_s(a,b,c) (a+b+c)/2
 #define triangle_area(a,b,c) sqrt(triangle_s(a,b,c)*(triangle_s(a,b,c)-a)*(triangle_s(a,b,c)-b)*(triangle_s(a,b,c)-c))

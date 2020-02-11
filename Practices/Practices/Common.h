@@ -16,4 +16,9 @@
 
 using namespace std;
 
+void Chapter_4_practice(int number);
+void Chapter_5_practice(int number);
+void Chapter_6_practice(int number);
+void Chapter_7_practice(int number);
+
 #endif /* Common_h */

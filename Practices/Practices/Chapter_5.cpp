@@ -6,11 +6,10 @@
 //  Copyright © 2020 Songyu. All rights reserved.
 //
 
-#include "Chapter_5.h"
+#include "Common.h"
 #include <random>
 #include <ctime>
 #include <cstdlib>
-#include <string>
 
 static void practice_1(void);
 static void practice_2(void);

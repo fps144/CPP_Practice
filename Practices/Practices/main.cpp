@@ -8,10 +8,6 @@
 //  - Chapter 3 -
 
 #include "Common.h"
-#include "Chapter_4.h"
-#include "Chapter_5.h"
-#include "Chapter_6.h"
-#include "Chapter_7.h"
 
 using namespace std;
 

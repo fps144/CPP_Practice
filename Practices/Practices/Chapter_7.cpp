@@ -6,7 +6,7 @@
 //  Copyright © 2020 Songyu. All rights reserved.
 //
 
-#include "Chapter_7.h"
+#include "Common.h"
 
 static void practice_1(void);
 static void practice_2(void);
