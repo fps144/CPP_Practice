@@ -16,7 +16,7 @@ int main() {
     //    Chapter_4_exercise(10);
     //    Chapter_5_exercise(7);
     //    Chapter_6_exercise(20);
-    Chapter_7_exercise(11);
-    
+    //    Chapter_7_exercise(11);
+    Chapter_8_exercise(6);
     return 0;
 }
