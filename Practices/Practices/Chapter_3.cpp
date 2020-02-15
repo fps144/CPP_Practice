@@ -32,66 +32,26 @@ static void exercise_25(void);
 
 void Chapter_3_exercise(int number) {
     switch (number) {
-        case 2: {
-            exercise_2();
-        } break;
-        case 3: {
-            exercise_3();
-        } break;
-        case 4: {
-            exercise_4();
-        } break;
-        case 9: {
-            exercise_9();
-        } break;
-        case 10: {
-            exercise_10();
-        } break;
-        case 11: {
-            exercise_11();
-        } break;
-        case 12: {
-            exercise_12();
-        } break;
-        case 13: {
-            exercise_13();
-        } break;
-        case 14: {
-            exercise_14();
-        } break;
-        case 15: {
-            exercise_15();
-        } break;
-        case 16: {
-            exercise_16();
-        } break;
-        case 17: {
-            exercise_17();
-        } break;
-        case 18: {
-            exercise_18();
-        } break;
-        case 19: {
-            exercise_19();
-        } break;
-        case 20: {
-            exercise_20();
-        } break;
-        case 21: {
-            exercise_21();
-        } break;
-        case 22: {
-            exercise_22();
-        } break;
-        case 23: {
-            exercise_23();
-        } break;
-        case 24: {
-            exercise_24();
-        } break;
-        case 25: {
-            exercise_25();
-        } break;
+        case 2: exercise_2(); break;
+        case 3: exercise_3(); break;
+        case 4: exercise_4(); break;
+        case 9: exercise_9(); break;
+        case 10: exercise_10(); break;
+        case 11: exercise_11(); break;
+        case 12: exercise_12(); break;
+        case 13: exercise_13(); break;
+        case 14: exercise_14(); break;
+        case 15: exercise_15(); break;
+        case 16: exercise_16(); break;
+        case 17: exercise_17(); break;
+        case 18: exercise_18(); break;
+        case 19: exercise_19(); break;
+        case 20: exercise_20(); break;
+        case 21: exercise_21(); break;
+        case 22: exercise_22(); break;
+        case 23: exercise_23(); break;
+        case 24: exercise_24(); break;
+        case 25: exercise_25(); break;
         default: {
             cout << "Shit exercise number!" << endl;
         } break;

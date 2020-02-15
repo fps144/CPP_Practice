@@ -22,39 +22,17 @@ static void exercise_11(void);
 
 void Chapter_7_exercise(int number) {
     switch (number) {
-        case 1: {
-            exercise_1();
-        } break;
-        case 2: {
-            exercise_2();
-        } break;
-        case 3: {
-            exercise_3();
-        } break;
-        case 4: {
-            exercise_4();
-        } break;
-        case 5: {
-            exercise_5();
-        } break;
-        case 6: {
-            exercise_6();
-        } break;
-        case 7: {
-            exercise_7();
-        } break;
-        case 8: {
-            exercise_8();
-        } break;
-        case 9: {
-            exercise_9();
-        } break;
-        case 10: {
-            exercise_10();
-        } break;
-        case 11: {
-            exercise_11();
-        } break;
+        case 1: exercise_1(); break;
+        case 2: exercise_2(); break;
+        case 3: exercise_3(); break;
+        case 4: exercise_4(); break;
+        case 5: exercise_5(); break;
+        case 6: exercise_6(); break;
+        case 7: exercise_7(); break;
+        case 8: exercise_8(); break;
+        case 9: exercise_9(); break;
+        case 10: exercise_10(); break;
+        case 11: exercise_11(); break;
         default: {
             cout << "Shit exercise number!" << endl;
         } break;

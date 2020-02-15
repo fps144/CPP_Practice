@@ -31,57 +31,23 @@ static void exercise_17(void);
 
 void Chapter_5_exercise(int number) {
     switch (number) {
-        case 1: {
-            exercise_1();
-        } break;
-        case 2: {
-            exercise_2();
-        } break;
-        case 3: {
-            exercise_3();
-        } break;
-        case 4: {
-            exercise_4();
-        } break;
-        case 5: {
-            exercise_5();
-        } break;
-        case 6: {
-            exercise_6();
-        } break;
-        case 7: {
-            exercise_7();
-        } break;
-        case 8: {
-            exercise_8();
-        } break;
-        case 9: {
-            exercise_9();
-        } break;
-        case 10: {
-            exercise_10();
-        } break;
-        case 11: {
-            exercise_11();
-        } break;
-        case 12: {
-            exercise_12();
-        } break;
-        case 13: {
-            exercise_13();
-        } break;
-        case 14: {
-            exercise_14();
-        } break;
-        case 15: {
-            exercise_15();
-        } break;
-        case 16: {
-            exercise_16();
-        } break;
-        case 17: {
-            exercise_17();
-        } break;
+        case 1: exercise_1(); break;
+        case 2: exercise_2(); break;
+        case 3: exercise_3(); break;
+        case 4: exercise_4(); break;
+        case 5: exercise_5(); break;
+        case 6: exercise_6(); break;
+        case 7: exercise_7(); break;
+        case 8: exercise_8(); break;
+        case 9: exercise_9(); break;
+        case 10: exercise_10(); break;
+        case 11: exercise_11(); break;
+        case 12: exercise_12(); break;
+        case 13: exercise_13(); break;
+        case 14: exercise_14(); break;
+        case 15: exercise_15(); break;
+        case 16: exercise_16(); break;
+        case 17: exercise_17(); break;
         default: {
             cout << "Shit exercise number!" << endl;
         } break;
@@ -209,14 +175,14 @@ static void exercise_6(void) {
 
 static void exercise_7(void) {
     /*
-      52 87 44  8 56 51
-      78 41 26  2 73 55
-      16 58 54 56 49 86
-      19 46  9 16 48 23
-      89 31 92 40 80 31
-      92 45 26 49 53 87
+     52 87 44  8 56 51
+     78 41 26  2 73 55
+     16 58 54 56 49 86
+     19 46  9 16 48 23
+     89 31 92 40 80 31
+     92 45 26 49 53 87
      
-      找到鞍点: (3, 4) -> 48
+     找到鞍点: (3, 4) -> 48
      */
     const int number = 6;
     int a[number][number], max_r[2][36], max_c[2][36];
@@ -357,7 +323,7 @@ static void exercise_11(void) {
     }
     cout << "-----------" << endl;
     cout << "String:" << endl;
-        for (int i = 0; i < 5; ++i) {
+    for (int i = 0; i < 5; ++i) {
         for (int j = 0; j <= i - 1; ++j) {
             cout << ' ';
         }
@@ -384,23 +350,23 @@ static void exercise_12(void) {
 static void exercise_13(void) {
     string s1, s2;
     char a[160], b[80];
-//    int i = 0, j = 0;
+    //    int i = 0, j = 0;
     cout << "Input stringA and stringB:" << endl;
-
-//    // string
-//    cin >> s1 >> s2;
-//    s1 += s2;
-//    cout << s1 << endl;
+    
+    //    // string
+    //    cin >> s1 >> s2;
+    //    s1 += s2;
+    //    cout << s1 << endl;
     
     cin >> a >> b;
-//    // Char array
-//    while (a[i] != '\0') {
-//        ++i;
-//    }
-//    while (b[j] != '\0') {
-//        a[i++] = b[j++];
-//    }
-//    a[i] = '\0';
+    //    // Char array
+    //    while (a[i] != '\0') {
+    //        ++i;
+    //    }
+    //    while (b[j] != '\0') {
+    //        a[i++] = b[j++];
+    //    }
+    //    a[i] = '\0';
     
     // strcat
     strcat(a, b);
@@ -442,7 +408,7 @@ static void exercise_15(void) {
 
 static void exercise_16(void) {
     char a[20];
-//    string s;
+    //    string s;
     int index = 0;
     cout << "Input string:" << endl;
     
@@ -454,15 +420,15 @@ static void exercise_16(void) {
     }
     cout << endl;
     
-//    // string
-//    cin >> s;
-////    // reverse
-////    reverse(s.begin(), s.end());
-////    cout << s << endl;
-//    // index
-//    for (long i = s.size() - 1; i >= 0; --i) { // 此处定义i的时候不能用unsigned long，否则在执行到0的时候再-1，就会变为unsigned long可取值范围的最大值。
-//        cout << s[i];
-//    }
+    //    // string
+    //    cin >> s;
+    ////    // reverse
+    ////    reverse(s.begin(), s.end());
+    ////    cout << s << endl;
+    //    // index
+    //    for (long i = s.size() - 1; i >= 0; --i) { // 此处定义i的时候不能用unsigned long，否则在执行到0的时候再-1，就会变为unsigned long可取值范围的最大值。
+    //        cout << s[i];
+    //    }
     cout << endl;
 }
 

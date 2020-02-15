@@ -31,66 +31,26 @@ static void exercise_20(void);
 
 void Chapter_6_exercise(int number) {
     switch (number) {
-        case 1: {
-            exercise_1();
-        } break;
-        case 2: {
-            exercise_2();
-        } break;
-        case 3: {
-            exercise_3();
-        } break;
-        case 4: {
-            exercise_4();
-        } break;
-        case 5: {
-            exercise_5();
-        } break;
-        case 6: {
-            exercise_6();
-        } break;
-        case 7: {
-            exercise_7();
-        } break;
-        case 8: {
-            exercise_8();
-        } break;
-        case 9: {
-            exercise_9();
-        } break;
-        case 10: {
-            exercise_10();
-        } break;
-        case 11: {
-            exercise_11();
-        } break;
-        case 12: {
-            exercise_12();
-        } break;
-        case 13: {
-            exercise_13();
-        } break;
-        case 14: {
-            exercise_14();
-        } break;
-        case 15: {
-            exercise_15();
-        } break;
-        case 16: {
-            exercise_16();
-        } break;
-        case 17: {
-            exercise_17();
-        } break;
-        case 18: {
-            exercise_18();
-        } break;
-        case 19: {
-            exercise_19();
-        } break;
-        case 20: {
-            exercise_20();
-        } break;
+        case 1: exercise_1(); break;
+        case 2: exercise_2(); break;
+        case 3: exercise_3(); break;
+        case 4: exercise_4(); break;
+        case 5: exercise_5(); break;
+        case 6: exercise_6(); break;
+        case 7: exercise_7(); break;
+        case 8: exercise_8(); break;
+        case 9: exercise_9(); break;
+        case 10: exercise_10(); break;
+        case 11: exercise_11(); break;
+        case 12: exercise_12(); break;
+        case 13: exercise_13(); break;
+        case 14: exercise_14(); break;
+        case 15: exercise_15(); break;
+        case 16: exercise_16(); break;
+        case 17: exercise_17(); break;
+        case 18: exercise_18(); break;
+        case 19: exercise_19(); break;
+        case 20: exercise_20(); break;
         default: {
             cout << "Shit exercise number!" << endl;
         } break;
@@ -311,7 +271,7 @@ void matrix_T(int *a) {
 
 static void exercise_10(void) {
     void matrix_Fix(int *a);
-        
+    
     cout << "Input a 5x5 matrix:" << endl;
     int a[5][5], *p = &a[0][0];
     for (int i = 0; i < 5; ++i) {
@@ -319,7 +279,7 @@ static void exercise_10(void) {
     }
     matrix_Fix(p);
     cout << "New matrix:" << endl;
-        for (int i = 0; i < 5; ++i) {
+    for (int i = 0; i < 5; ++i) {
         cout << setw(2) << a[i][0] << ' ' << a[i][1] << ' ' << a[i][2] << ' ' << a[i][3] << ' ' << a[i][4] << endl;
     }
     cout << endl;
@@ -370,7 +330,7 @@ void resortMinArray(int *min, int *a) {
         }
     }
 }
- 
+
 void swapMatrixItem(int *a, int *b) {
     int tmp = *a;
     *a = *b;
@@ -581,7 +541,7 @@ static void exercise_16(void) {
 
 static void exercise_17(void) {
     void p_strcmp(char *s1, char*s2);
-        
+    
     cout << "Input 2 strings:" << endl;
     char a[20], b[20];
     gets(a);
