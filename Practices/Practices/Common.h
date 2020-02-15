@@ -39,5 +39,6 @@ void Chapter_5_exercise(int number);
 void Chapter_6_exercise(int number);
 void Chapter_7_exercise(int number);
 void Chapter_8_exercise(int number);
+void Chapter_9_exercise(int number);
 
 #endif /* Common_h */

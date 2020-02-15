@@ -13,6 +13,7 @@
 		4DD9B12423E1E318008F962D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9B12323E1E318008F962D /* main.cpp */; };
 		4DD9B12C23E31BCD008F962D /* Chapter_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9B12A23E31BCD008F962D /* Chapter_4.cpp */; };
 		4DD9ED2323E868B2009340CF /* Chapter_6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9ED2223E868B2009340CF /* Chapter_6.cpp */; };
+		4DEC932823F8493B00EC4FCA /* Chapter_9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC932723F8493B00EC4FCA /* Chapter_9.cpp */; };
 		4DF5022623F6B7A6008EF27F /* Chapter_8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5022523F6B7A6008EF27F /* Chapter_8.cpp */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		4DD9B12A23E31BCD008F962D /* Chapter_4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter_4.cpp; sourceTree = "<group>"; };
 		4DD9B12E23E31DD2008F962D /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		4DD9ED2223E868B2009340CF /* Chapter_6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter_6.cpp; sourceTree = "<group>"; };
+		4DEC932723F8493B00EC4FCA /* Chapter_9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter_9.cpp; sourceTree = "<group>"; };
 		4DF5022523F6B7A6008EF27F /* Chapter_8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter_8.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				4DD9ED2223E868B2009340CF /* Chapter_6.cpp */,
 				4DD3854023F2729300246B1F /* Chapter_7.cpp */,
 				4DF5022523F6B7A6008EF27F /* Chapter_8.cpp */,
+				4DEC932723F8493B00EC4FCA /* Chapter_9.cpp */,
 			);
 			path = Practices;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				4D48A5D323E40DFB009799BB /* Chapter_5.cpp in Sources */,
 				4DD9B12C23E31BCD008F962D /* Chapter_4.cpp in Sources */,
 				4DD3854423F2F9C000246B1F /* Chapter_3.cpp in Sources */,
+				4DEC932823F8493B00EC4FCA /* Chapter_9.cpp in Sources */,
 				4DD9ED2323E868B2009340CF /* Chapter_6.cpp in Sources */,
 				4DD9B12423E1E318008F962D /* main.cpp in Sources */,
 			);
